@@ -1,0 +1,93 @@
+body {
+    font-family: 'Stylish', sans-serif; /*Sets the font*/
+    background-color: rgb(128, 128, 128); /* Sets the background color */ 
+    margin: 25px; /* Sets the margin for the page */
+}
+
+header {
+  font-size: 38px; /* Sets all header fontsizes */
+  font-weight: bold; /* Determines the font style */
+  text-align: center; /* Centers the text */
+  margin-top: 60px; /* Creates a margin at the top */
+  padding-bottom: 20px; /* Sets a padding at the bottom */
+
+}
+
+h1 {
+    padding-right: 0px;  /* Aligns the text of all h1 elements to the left */
+}
+
+p{
+    text-align: center; /*Aligns the text to the center*/
+    padding-left:20px; /*Sets the padding to the left*/
+
+}
+
+.col1{
+    text-align: center; /*Colum aligment to centar*/
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-type: none; /* Prevents a list style */
+    text-decoration: none;
+}
+
+article {
+    display: grid; /* Instructs that this element should be displayed in a grid system */
+    grid-template-columns: 1fr 1fr 1fr; /* Sets the amount of columns and the space between by 1fr */
+    margin: 0 auto; /* Creates a margin for the element that's automatically decided based on the size */
+    padding: 200px; /* Creates a surrounding 100 pixel padding */
+    grid-column-gap: 10px; /* Creates a gap between each column by 10 pixels */
+    
+}
+
+ul {
+    overflow: auto; /* Specifies to automatically clip content */
+    list-style-type: none; /* Prevents a list style */
+    text-decoration: none; /* Prevents any decoration for text */
+    align-content: center;
+    float: inherit;
+  }
+
+li {
+    height: 50px; /*Creates a height of this element for 25 pixels */
+    float: inherit; /* Element floats to the left */
+    margin-right: 50px; /*Prevents a margin to the right */
+    font-size: 20px;
+    padding: 0 10px; /* Creates a padding for 20 pixels */
+    text-align: center; /* Centres the text */
+    
+}
+
+li a {
+    text-decoration: none; /* Prevents text decoration */
+}
+
+li a:hover {
+    text-decoration: none; /*Prevents text decoration */
+    color: #666666; /* When the cursor hovers over each navigation, it will highlight grey */
+}
+
+
+paragraph {
+     font-size: 14px; /* Sets the font size to 14px */
+     font-family: "Calibri", sans-serif; /* Sets the font */
+     line-height: 21px; /* Sets the space inbetween each line */
+     column-count: 1; /* Sets the amount of columns for this element */
+     column-gap: 20px; /* Sets the gap between each column */
+     text-align: center /* Centres the text */
+     
+}
+
+
+
+footer {
+    text-align: center;
+    padding-top: 500px;
+    padding-bottom: 30px; /* Creates a padding at the bottom of the element by 30 pixels */
+}
+img {
+    width: 100%; /* Maximizes the width of the element */
+    object-fit: cover; /* Allows the object to preserve aspect ratio */
+}
+
