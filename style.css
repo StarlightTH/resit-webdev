@@ -59,16 +59,6 @@ li {
     
 }
 
-li a {
-    text-decoration: none; /* Prevents text decoration */
-}
-
-li a:hover {
-    text-decoration: none; /*Prevents text decoration */
-    color: #666666; /* When the cursor hovers over each navigation, it will highlight grey */
-}
-
-
 paragraph {
      font-size: 14px; /* Sets the font size to 14px */
      font-family: "Calibri", sans-serif; /* Sets the font */
@@ -78,8 +68,6 @@ paragraph {
      text-align: center /* Centres the text */
      
 }
-
-
 
 footer {
     text-align: center;
